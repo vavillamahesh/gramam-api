@@ -18,3 +18,8 @@ management:
     health:
       probes:
         enabled: true
+
+gramam:
+  schemes:
+    # mock = built-in sample data; a real provider (e.g. myscheme) will be added later
+    provider: mock
